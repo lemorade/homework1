@@ -1,0 +1,9 @@
+# 构建产物（Ozone 调试用的 .elf 由本地构建产生，不进仓库）
+build/
+build-*/
+
+# 编辑器 / 系统产生的临时文件
+.vscode/ipch/
+*.log
+Thumbs.db
+desktop.ini
