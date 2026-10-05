@@ -1,3 +1,11 @@
+/*
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2026-09-30 20:42:57
+ * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @LastEditTime: 2026-10-05 23:27:18
+ * @FilePath: \undefinedc:\Users\user\Desktop\RM\homework1\Tasks\src\task.c
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 /**
  * @file    task.c
  * @brief   电控第一次作业 —— 第 1/2/3 题（GPIO / 定时器 / 看门狗）的业务代码全部写在本文件。
@@ -46,6 +54,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
          * 第 3 题（看门狗）：保持注释（即不喂狗）-> 重新编译、下载，
          *                    然后在 Ozone 里看 tick 涨到约 2000 后复位归零。
          * ============================================================ */
-        // HAL_IWDG_Refresh(&hiwdg);
+         //HAL_IWDG_Refresh(&hiwdg);
     }
 }

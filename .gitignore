@@ -7,3 +7,7 @@ build-*/
 *.log
 Thumbs.db
 desktop.ini
+
+# 调试器文件（Ozone / J-Link）
+*.jdebug
+*.jdebug.user
